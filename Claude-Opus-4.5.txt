@@ -1,0 +1,93 @@
+Claude-Opus-4.5  ：：
+User: prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a small but complete habit tracking web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- App creation from scratch
+- Component structure
+- State management
+- TypeScript correctness
+- Basic UI completeness
+
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: NOT required (single-page app)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Read input_ui_spec.txt fully before coding
+- Implement only features explicitly listed
+2. Project Setup
+Generate a working project including:
+- package.json
+- tsconfig.json (strict mode)
+- vite.config.ts
+- index.html
+3. Features to Implement
+- Add a habit (name + frequency)
+- Display habit list
+- Toggle habit as completed / not completed
+- Delete habit
+- Local state only (no persistence)
+4. Code Quality
+- Strict TypeScript typing
+- No any
+- Functional components
+- Clean component separation
+5. Generate README.md
+Must include:
+- App overview
+- Tech stack
+- How to run (pnpm install / pnpm dev)
+- Feature list
+
+GitHub Copilot: I'll create a complete habit tracking web app based on the specification. Let me set up the project structure with all necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/tailwind.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/postcss.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/types/habit.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/components/HabitForm.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/components/HabitItem.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/components/HabitList.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/components/Header.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/public/vite.svg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/Claude-Opus-4.5/habit-tracker/README.md)
+
+Now let me install dependencies and verify the project works: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.15\case2\Claude-Opus-4.5\habit-tracker"; pnpm install
+
+Dependencies installed. Let me run the build to verify TypeScript compilation: 
+
+Ran terminal command: pnpm approve-builds; npx tsc --noEmit
+
+Made changes.
