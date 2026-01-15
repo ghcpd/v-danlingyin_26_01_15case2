@@ -1,0 +1,15 @@
+App Name: Habit Tracker
+
+Goal:
+Help users build and maintain daily habits.
+
+Target Platform:
+Mobile app
+
+Basic Requirements:
+- Users can create habits
+- Users can mark habits as completed daily
+- Users can view their habit list
+
+Notes:
+UI details and interaction flows are not fully specified.
