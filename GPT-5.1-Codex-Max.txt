@@ -1,0 +1,114 @@
+GPT-5.1-Codex-Max  ：：
+User: prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a small but complete habit tracking web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- App creation from scratch
+- Component structure
+- State management
+- TypeScript correctness
+- Basic UI completeness
+
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: NOT required (single-page app)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Read input_ui_spec.txt fully before coding
+- Implement only features explicitly listed
+2. Project Setup
+Generate a working project including:
+- package.json
+- tsconfig.json (strict mode)
+- vite.config.ts
+- index.html
+3. Features to Implement
+- Add a habit (name + frequency)
+- Display habit list
+- Toggle habit as completed / not completed
+- Delete habit
+- Local state only (no persistence)
+4. Code Quality
+- Strict TypeScript typing
+- No any
+- Functional components
+- Clean component separation
+5. Generate README.md
+Must include:
+- App overview
+- Tech stack
+- How to run (pnpm install / pnpm dev)
+- Feature list
+
+GitHub Copilot: Optimizing tool selection...
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/input_ui_spec.txt)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/tailwind.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/postcss.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/types.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitForm.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitItem.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitList.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/README.md)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/.gitignore)
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/App.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitForm.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitList.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/components/HabitItem.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case2/GPT-5.1-Codex-Max/src/main.tsx)
+
+Built a React 18 + TypeScript habit tracker with Tailwind on Vite/pnpm, covering add, view, toggle complete, and delete per the spec.
+
+- Core UI/state: app shell, counters, and habit handlers connecting form and list live in App.tsx.
+- Habit creation: validated name field plus frequency pill selector in HabitForm.tsx.
+- Listing and actions: empty state plus item-level toggle/delete controls in HabitList.tsx and HabitItem.tsx.
+- Bootstrapping and styling: React root setup in main.tsx, Tailwind base in index.css, config/build tooling in package.json, vite.config.ts, tailwind.config.ts, and guidance in README.md.
+
+Next steps:
+1) `pnpm install`
+2) `pnpm dev`
+
+Made changes.
