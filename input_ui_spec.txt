@@ -1,10 +1,15 @@
-App Name: Weather Dashboard
+App Name: Habit Tracker
 
-Core Features:
-- Display current weather for a selected city
-- Show city name, temperature, and weather condition
-- Allow switching between cities
+Goal:
+Help users build and maintain daily habits.
 
-Constraints:
-- Use mock weather data
-- No authentication
+Target Platform:
+Mobile app
+
+Basic Requirements:
+- Users can create habits
+- Users can mark habits as completed daily
+- Users can view their habit list
+
+Notes:
+UI details and interaction flows are not fully specified.
