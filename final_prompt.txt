@@ -1,0 +1,46 @@
+prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a small but complete habit tracking web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- App creation from scratch
+- Component structure
+- State management
+- TypeScript correctness
+- Basic UI completeness
+
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: NOT required (single-page app)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Read input_ui_spec.txt fully before coding
+- Implement only features explicitly listed
+2. Project Setup
+Generate a working project including:
+- package.json
+- tsconfig.json (strict mode)
+- vite.config.ts
+- index.html
+3. Features to Implement
+- Add a habit (name + frequency)
+- Display habit list
+- Toggle habit as completed / not completed
+- Delete habit
+- Local state only (no persistence)
+4. Code Quality
+- Strict TypeScript typing
+- No any
+- Functional components
+- Clean component separation
+5. Generate README.md
+Must include:
+- App overview
+- Tech stack
+- How to run (pnpm install / pnpm dev)
+- Feature list
